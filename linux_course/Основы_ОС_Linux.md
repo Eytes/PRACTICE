@@ -428,7 +428,7 @@ vasyapupkin:x:1000:vasyapupkin,petya
 При создании файла ему назначается основная группа пользователя который его создал. Это просто например:
 
 ```bash
-ls -l ~/
+ls -l /
 ```
 
 ![изображение](https://github.com/Eytes/PRACTICE/assets/67365128/febe0ac8-b137-408a-996b-4b0c7a1f15a0)
