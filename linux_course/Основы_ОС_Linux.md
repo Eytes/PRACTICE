@@ -837,15 +837,21 @@ echo $VAR12
 sudo apt install openssh-server
 ```
 
-![изображение](https://github.com/Eytes/PRACTICE/assets/67365128/6c775249-a302-405b-8e7b-4d7ef39f9385)
+![изображение](https://github.com/Eytes/PRACTICE/assets/67365128/dd0e06fd-cb74-4eb2-9633-8edcf11be5e0)
+
 
 После завершения установки, убедимся, что служба запущена. Введем команду:
 
 ```bash
 systemctl status sshd
 ```
+или
+```bash
+service sshd status
+```
 
-![изображение](https://github.com/Eytes/PRACTICE/assets/67365128/540ae3cd-940d-4712-a555-9cdd7c9c361d)
+![изображение](https://github.com/Eytes/PRACTICE/assets/67365128/33946ca3-3ce4-4fa1-922c-d9ea34fb27cc)
+
 
 Состояние `Active (running)` говорит о том, что служба работает.
 
@@ -855,7 +861,7 @@ systemctl status sshd
 sudo ufw disable
 ```
 
-![изображение](https://github.com/Eytes/PRACTICE/assets/67365128/2e436623-4be1-400e-8277-af41602b33e2)
+![изображение](https://github.com/Eytes/PRACTICE/assets/67365128/c9905d46-8e86-405a-89fa-e28267947e0e)
 
 На этом этапе вы уже можете подключаться к серверу. С настройками по умолчанию сервер принимает входящие подключения на стандартный порт `22`, с аутентификацией по паролю.
 
