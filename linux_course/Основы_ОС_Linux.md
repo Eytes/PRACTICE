@@ -904,6 +904,9 @@ ssh-copy-id ubuntu@192.168.0.77
 
 Полезные статьи:
 - [Хабр](https://habr.com/ru/articles/122445/)
+- [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-to-connect-to-a-remote-server-ru)
+- [105 команд для работы с сервером Linux по SSH](https://timeweb.com/ru/community/articles/105-komand-dlya-raboty-s-linux-po-ssh)
+- [Копирование файлов через SSH](https://help.reg.ru/support/servery-vps/oblachnyye-servery/rabota-s-serverom/kopirovaniye-faylov-cherez-ssh)
 
 
 <h2 align="center">Популярные вопросы</h2>
